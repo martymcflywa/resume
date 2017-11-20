@@ -1,6 +1,9 @@
 
 # Created by https://www.gitignore.io/api/macos,latex,windows,visualstudiocode
 
+### hackmyresume / jsonresume
+out/
+
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
 *.aux

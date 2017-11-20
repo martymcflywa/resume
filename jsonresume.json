@@ -1,0 +1,105 @@
+{
+    "basics": {
+      "name": "Martin Ponce",
+      "label": "Graduate Software Developer",
+      "picture": "",
+      "email": "martin.ponce@outlook.com",
+      "phone": "+61 416 357 709",
+    //   "website": "http://johndoe.com",
+    //   "summary": "A summary of John Doe...",
+      "location": {
+        "address": "U2 / 93 Scarborough Beach Rd",
+        "postalCode": "6016",
+        "city": "MT HAWTHORN",
+        "countryCode": "AU",
+        "region": "WA"
+      },
+      "profiles": [{
+        "network": "Github",
+        "username": "martymcflywa",
+        "url": "https://github.com/martymcflywa"
+      }]
+    },
+    "work": [
+    {
+      "company": "Cash Converters, Perth, WA",
+      "position": "Graduate Software Developer",
+      "website": "http://cashconverters.com.au",
+      "startDate": "2017-08-07",
+      "endDate": "",
+      "summary": "As a graduate software developer, I began working in the Business Intelligence team who deliver reporting and dashboard solutions to different areas of the business.",
+      "highlights": [
+        "Responsible for developing a 'Loan Book' component for the Executive Dashboard, providing a daily total of all outstanding loan balances..."
+      ]
+    },
+    {
+        "company": "IBM, Perth, WA",
+        "position": "Graduate Software Developer",
+        "website": "http://cashconverters.com.au",
+        "startDate": "2016-01-18",
+        "endDate": "2017-07-28",
+        "summary": "Due to my HD grade average, I was invited to take part in ECU's Work Integrated Learning program, and applied for an internship at IBM. During my internship, I was heavily involved in the developent of a brand new commercial product and gained valuable experience working in a professional environment where my knowledge, technical and interpersonal skills were put to the test in a software development role.",
+        "highlights": [
+            "Initially worked on developing new proof of concept features to an existing product, z Operational Insights",
+            ""
+        ]
+    }],
+    "education": [
+    {
+      "institution": "Edith Cowan University, Perth, WA",
+      "area": "Computer Science, Major Software Engineer",
+      "studyType": "Bachelor",
+      "startDate": "2014-06-01",
+      "endDate": "",
+      "gpa": "83.23",
+      "courses": [
+        "CSG1132: Communicating in an IT Environment",
+        "CSI1241: Systems Analysis",
+        "CSP1150: Programming Principles",
+        "ENS1161: Computer Fundamentals",
+        "CSG1105: Applied Communications",
+        "CSG1207: Systems and Database Design",
+        "CSI1101: Computer Security",
+        "CSP2348: Data Structures",
+        "CSG1102: Operating Systems",
+        "CSG2341: Intelligent Systems",
+        "CSG2344: Project Methods and Professionalism",
+        "CSI2441: Applications Development",
+        "CSI3345: Work Integrated Learning (IBM Internship)"
+      ]
+    },
+    {
+        "institution": "Edith Cowan University, Perth, WA",
+        "area": "Graphic Design, Print and Digital Media",
+        "studyType": "Diploma",
+        "startDate": "2002-01-01",
+        "endDate": "2003-12-30",
+        "gpa": "76.46"
+    }],
+    // "awards": [{
+    //   "title": "Award",
+    //   "date": "2014-11-01",
+    //   "awarder": "Company",
+    //   "summary": "There is no spoon."
+    // }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }],
+    // "languages": [{
+    //   "name": "English",
+    //   "level": "Native speaker"
+    // }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }]
+  }
