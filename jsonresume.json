@@ -5,8 +5,8 @@
       "picture": "",
       "email": "martin.ponce@outlook.com",
       "phone": "+61 416 357 709",
-    //   "website": "http://johndoe.com",
-    //   "summary": "A summary of John Doe...",
+      "website": "http://martinponce.com.au",
+      "summary": "",
       "location": {
         "address": "U2 / 93 Scarborough Beach Rd",
         "postalCode": "6016",
@@ -26,22 +26,35 @@
       "position": "Graduate Software Developer",
       "website": "http://cashconverters.com.au",
       "startDate": "2017-08-07",
-      "endDate": "",
-      "summary": "As a graduate software developer, I began working in the Business Intelligence team who deliver reporting and dashboard solutions to different areas of the business.",
+      "endDate": "2017-02-09",
+      "summary": "As a graduate software developer on a 6 month contract, I was invovled in two projects which gave me experience in the financial .",
       "highlights": [
-        "Responsible for developing a 'Loan Book' component for the Executive Dashboard, providing a daily total of all outstanding loan balances..."
+        "Responsible for developing a 'Loan Book' component for the Executive Dashboard, providing a daily total of all outstanding loan balances...",
+        "CQRS, ReadModel implementation, SOLID",
+        "Financial services loan book",
+        "Single customer view",
+        "NoSQL",
+        "Developed EventSource replicator, messagepack binary serialization, internal users",
+        "Made improvements to CI/CD ",
+        "Code reviews",
+        "Sprints, scrums, kickoff/devbox with testers"
       ]
     },
     {
         "company": "IBM, Perth, WA",
-        "position": "Graduate Software Developer",
-        "website": "http://cashconverters.com.au",
+        "position": "Intern Software Developer",
+        "website": "http://ibm.com.au",
         "startDate": "2016-01-18",
         "endDate": "2017-07-28",
         "summary": "Due to my HD grade average, I was invited to take part in ECU's Work Integrated Learning program, and applied for an internship at IBM. During my internship, I was heavily involved in the developent of a brand new commercial product and gained valuable experience working in a professional environment where my knowledge, technical and interpersonal skills were put to the test in a software development role.",
         "highlights": [
-            "Initially worked on developing new proof of concept features to an existing product, z Operational Insights",
-            ""
+            "Developed proof of concept features for an existing product, z Operational Insights (zOI), which provided mainframe system insights based on user uploaded logs.",
+            "I was involved in providing additional system analysis in a Java 8 backend for the zOI product, serving insights via REST API endpoints to an Angular 1 based frontend.",
+            "I was also involved in visualising data for zOI, presenting analytics graphically, using D3.js.",
+            "The majority of my internship was spent on development of a greenfield project called Common Data Provider for z Systems (CDPz), which gathered log records from multiple sources in a z/OS system, processes the data then forwards them to multiple subscribers through a single interface.",
+            "I was able to gain a deep understanding of the Java component of CDPz in a short period of time, and was asked to assist in the design of some data processing features.",
+            "My expertise in the Java component was highly regarded, and as an intern, was invited to travel to the US to hand over the project to a different development team.",
+            "I demonstrated my ability to be self sufficient, working remotely with the dev team in the US in a full time capacity."
         ]
     }],
     "education": [
@@ -69,7 +82,7 @@
       ]
     },
     {
-        "institution": "Edith Cowan University, Perth, WA",
+        "institution": "KvB Institute of Technology, North Sydney, NSW",
         "area": "Graphic Design, Print and Digital Media",
         "studyType": "Diploma",
         "startDate": "2002-01-01",
