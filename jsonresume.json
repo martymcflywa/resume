@@ -27,17 +27,13 @@
       "website": "http://cashconverters.com.au",
       "startDate": "2017-08-07",
       "endDate": "2017-02-09",
-      "summary": "As a graduate software developer on a 6 month contract, I was invovled in two projects which gave me experience in the financial .",
+      "summary": "I was employed at Cash Converters under a 6 month contract and was involved in two projects, Business Intelligence and Single Customer View, developing in .NET Core and C#. This opportunity allowed me to gain experience in the CQRS pattern and event sourcing.",
       "highlights": [
-        "Responsible for developing a 'Loan Book' component for the Executive Dashboard, providing a daily total of all outstanding loan balances...",
-        "CQRS, ReadModel implementation, SOLID",
-        "Financial services loan book",
-        "Single customer view",
-        "NoSQL",
-        "Developed EventSource replicator, messagepack binary serialization, internal users",
-        "Made improvements to CI/CD ",
-        "Code reviews",
-        "Sprints, scrums, kickoff/devbox with testers"
+        "I was responsible for developing a 'Loan Book' event source read model for the Executive Dashboard, providing a view of daily total of outstanding loan balances, broken down and filterable by product, date, delivered to executives through Microsoft PowerBI.",
+        "I was involved in making improvements to the existing CI/CD pipeline in AppVeyor and Octopus Deploy, speeding up test times by avoiding redundant rebuilds. I was also responsible for improving deployment resiliency by ensuring that all dependencies are packed into the release package, avoiding the need for access to nuget.org for applications deploted on-premise.",
+        "Worked on Single Customer View project, with a goal to unify a customer that may exist in multiple sources of the business as a single entity, to improve segmentation and targeted marketing, as well as a source for customer self service.",
+        "My responsibility in Single Customer View was to develop extractor services for multiple customer stores, which cleansed the data, checked the record's validity then persisted to a NoSQL store for a transformer service to consume and perform customer matching. Some customer stores were from traditional SQL databases, and others were an event source, accessed via a REST API.",
+        "I assisted in developing an event source replicator, which replicated the personal finance event store into a flat file binary MessagePack format. The intention was to improve event source read model population, by substituting event store reads from a remote SQL server to flat files stored locally with a read model service. I also developed packages for developers to read the event store in the MessagePack format, so that internal developers can quickly integrate this feature into other services."
       ]
     },
     {
@@ -89,30 +85,61 @@
         "endDate": "2003-12-30",
         "gpa": "76.46"
     }],
-    // "awards": [{
-    //   "title": "Award",
-    //   "date": "2014-11-01",
-    //   "awarder": "Company",
-    //   "summary": "There is no spoon."
-    // }],
     "skills": [{
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Backend development",
+      "level": "Intermediate",
       "keywords": [
+        "Java",
+        "C#, .NET Core, .NET MVC",
+        "MS SQL/MySQL",
+        "NoSQL/Azure table storage",
+        "Azure blob storage",
+        "Behavior/test driven development"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "level": "Intermediate",
+      "keywords": [
+        "Gradle",
+        "Azure",
+        "AppVeyor",
+        "TravisCI",
+        "Octopus deploy",
+        "TeamCity",
+        "Powershell CLI/scripting",
+        "Linux CLI/bash scripting"
+      ]
+    },
+    {
+      "name": "Frontend development",
+      "level": "Basic",
+      "keywords": [
+        "Javascript",
         "HTML",
-        "CSS",
-        "Javascript"
+        "PHP",
+        "Angular",
+        "D3.js"
       ]
     }],
-    // "languages": [{
-    //   "name": "English",
-    //   "level": "Native speaker"
-    // }],
     "interests": [{
-      "name": "Wildlife",
+      "name": "Basketball",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Weekly team competition"
+      ]
+    },
+    {
+      "name": "Electronic music production",
+      "keywords": [
+        "Ableton",
+        "Serato"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "keywords": [
+        "PC",
+        "Console"
       ]
     }]
   }
