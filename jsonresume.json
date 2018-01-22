@@ -5,7 +5,7 @@
       "picture": "",
       "email": "martin.ponce@outlook.com",
       "phone": "+61 416 357 709",
-      "website": "http://martinponce.com.au",
+      "website": "http://resume.martinponce.com.au",
       "summary": "",
       "location": {
         "address": "U2 / 93 Scarborough Beach Rd",
@@ -18,6 +18,11 @@
         "network": "Github",
         "username": "martymcflywa",
         "url": "https://github.com/martymcflywa"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Martin Ponce",
+        "url": "https://www.linkedin.com/in/martin-ponce-0b350871/"
       }]
     },
     "work": [
@@ -27,13 +32,14 @@
       "website": "http://cashconverters.com.au",
       "startDate": "2017-08-07",
       "endDate": "2017-02-09",
-      "summary": "I was employed at Cash Converters under a 6 month contract and was involved in two projects, Business Intelligence and Single Customer View, developing in .NET Core and C#. This opportunity allowed me to gain experience in the CQRS pattern and event sourcing.",
+      "summary": "I was employed at Cash Converters under a 6 month contract and was involved in two projects, Business Intelligence and Single Customer View, developing in .NET Core and C#. This opportunity has exposed me to the CQRS pattern, event sourcing as well and has furthered my experience in continuous integration/delivery.",
       "highlights": [
-        "I was responsible for developing a 'Loan Book' event source read model for the Executive Dashboard, providing a view of daily total of outstanding loan balances, broken down and filterable by product, date, delivered to executives through Microsoft PowerBI.",
-        "I was involved in making improvements to the existing CI/CD pipeline in AppVeyor and Octopus Deploy, speeding up test times by avoiding redundant rebuilds. I was also responsible for improving deployment resiliency by ensuring that all dependencies are packed into the release package, avoiding the need for access to nuget.org for applications deploted on-premise.",
-        "Worked on Single Customer View project, with a goal to unify a customer that may exist in multiple sources of the business as a single entity, to improve segmentation and targeted marketing, as well as a source for customer self service.",
-        "My responsibility in Single Customer View was to develop extractor services for multiple customer stores, which cleansed the data, checked the record's validity then persisted to a NoSQL store for a transformer service to consume and perform customer matching. Some customer stores were from traditional SQL databases, and others were an event source, accessed via a REST API.",
-        "I assisted in developing an event source replicator, which replicated the personal finance event store into a flat file binary MessagePack format. The intention was to improve event source read model population, by substituting event store reads from a remote SQL server to flat files stored locally with a read model service. I also developed packages for developers to read the event store in the MessagePack format, so that internal developers can quickly integrate this feature into other services."
+        "I was responsible for developing a 'Loan Book' event source read model for the Executive Dashboard, providing a view of outstanding loan balances, broken down and filterable by product, date, working closely with stakeholders from Personal Finance to understand and implement business rules around the calculation of the balance.",
+        "I was involved in making improvements to the existing CI/CD pipeline in AppVeyor and Octopus Deploy, speeding up test times by avoiding redundant rebuilds. I was also responsible for improving deployment resiliency by ensuring that all dependencies are packed into the release package, avoiding the need for access to nuget.org for applications deployed on-premise.",
+        "I spent time on the Single Customer View project, with a goal to unify a customer that may exist as multiple instances of a customer within many business systems, as a single entity, to improve segmentation and targeted marketing, as well as a source for customer self service.",
+        "My responsibility in Single Customer View was to develop extractor services for multiple customer stores, which cleansed the data, checked the customer record's validity then persisted to a NoSQL store for a transformer service to consume and perform customer matching. Some customer stores were from traditional SQL databases, and others were an event source, accessed via a REST API.",
+        "I assisted in developing an event source replicator, which replicated the personal finance event source into a flat file binary MessagePack format. The intention was to improve event source read model population, by substituting event source reads from a remote SQL server to flat files, stored locally to a read model service. I also developed packages for developers to read the event store in the MessagePack format, so that internal deveslopers can quickly integrate this feature into other services.",
+        "Throughout my time at Cash Converters, I adhered to Agile and Scrum methodologies, attending daily standups and fortnightly sprint planning sessions."
       ]
     },
     {
@@ -44,8 +50,8 @@
         "endDate": "2017-07-28",
         "summary": "Due to my HD grade average, I was invited to take part in ECU's Work Integrated Learning program, and applied for an internship at IBM. During my internship, I was heavily involved in the developent of a brand new commercial product and gained valuable experience working in a professional environment where my knowledge, technical and interpersonal skills were put to the test in a software development role.",
         "highlights": [
-            "Developed proof of concept features for an existing product, z Operational Insights (zOI), which provided mainframe system insights based on user uploaded logs.",
-            "I was involved in providing additional system analysis in a Java 8 backend for the zOI product, serving insights via REST API endpoints to an Angular 1 based frontend.",
+            "I developed proof of concept features for an existing product, z Operational Insights (zOI), which provided mainframe system insights based on user uploaded logs.",
+            "I was involved in providing additional system analysis in a Java 8 based backend for the zOI product, serving insights via REST API endpoints to an Angular 1 based frontend.",
             "I was also involved in visualising data for zOI, presenting analytics graphically, using D3.js.",
             "The majority of my internship was spent on development of a greenfield project called Common Data Provider for z Systems (CDPz), which gathered log records from multiple sources in a z/OS system, processes the data then forwards them to multiple subscribers through a single interface.",
             "I was able to gain a deep understanding of the Java component of CDPz in a short period of time, and was asked to assist in the design of some data processing features.",
@@ -106,7 +112,6 @@
         "AppVeyor",
         "TravisCI",
         "Octopus deploy",
-        "TeamCity",
         "Powershell CLI/scripting",
         "Linux CLI/bash scripting"
       ]
