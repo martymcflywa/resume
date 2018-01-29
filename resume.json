@@ -2,7 +2,7 @@
     "basics": {
         "name": "Martin Ponce",
         "label": "Junior Software Developer",
-        "picture": "https://i.imgur.com/kVd8dzr.png",
+        "picture": "http://martinponce.com.au/img/marty.png",
         "email": "martin.ponce@outlook.com",
         "phone": "+61 416 357 709",
         "website": "http://martinponce.com.au",
@@ -39,7 +39,8 @@
                 "I was involved in a project called Single Customer View, with the intention to unify customers, who exist as different entities within many Cash Converters systems, as a single customer, to facilitate consumer segmentation and target marketing. My main responsibility was to develop customer extractor services, which read customer records from multiple sources, cleansed and validated the data, then persisted the record in a unified format to a NoSQL store for a transformer service to consume and perform customer matching processes. Customer sources ranged from traditional SQL databases to event sourced stores accessed via REST API. I worked with the marketing team to determine requirements, such as required fields, handling of international phone numbers, and the definition of a valid customer.",
                 "I assisted in the development of a contractless event source replicator, which replicated the Personal Finance event source into a flat file binary MessagePack format. The intention was to improve reporting read model population, by substituting event source reads from a remote SQL server, with reads from flat files, stored locally on the read model service host file system. I was also responsible for developing packages which enabled internal developers to quickly implement listening to events from a flat file, binary event source.",
                 "I was involved in making improvements to the existing CI/CD pipeline in AppVeyor and Octopus Deploy, speeding up test times by avoiding redundant rebuilds. I was also responsible for improving deployment resiliency by ensuring that all dependencies are packed into the release package, avoiding the need for access to nuget.org for applications deployed on-premise.",
-                "I was responsible for developing a 'Loan Book' event source read model for a PowerBI driven Executive Dashboard, providing a view of outstanding loan balances, broken down and filterable by product, date, working closely with stakeholders from Personal Finance to understand and implement business rules around the calculation of the loan book balance."
+                "I was responsible for developing a 'Loan Book' event source read model for a PowerBI driven Executive Dashboard, providing a view of outstanding loan balances, broken down and filterable by product, date, working closely with stakeholders from Personal Finance to understand and implement business rules around the calculation of the loan book balance.",
+                "I followed standard practices while at Cash Converters, following test/behaviour driven development using xUnit and BDDfy behaviour driven development framework, stubbing with NSubstitute and upholding SOLID principles to ensure clean, testable code, while actively engaging in code reviews with my peers, as both a reviewee and reviewer."
             ]
         },
         {
@@ -50,8 +51,9 @@
             "endDate": "2017-07-28",
             "summary": "Due to my HD grade average, I was invited to take part in ECU's Work Integrated Learning program, and applied for an internship at IBM. During my internship, I was heavily involved in the development of a brand new commercial product and gained valuable experience working in a professional environment where my knowledge, technical and interpersonal skills were put to the test in a software development role.",
             "highlights": [
-                "I worked on developing proof of concept features for an existing product called z Operational Insights, which is a web application that provided mainframe operation insights by analyzing user uploaded mainframe logs. This story involved creating new REST API endpoints to an existing Java 8 backend, to support additional log record types and perform analysis for new insights, passing data to the frontend as json. I was also involved in creating new UI elements which presented the new insights and gained experience in visualising data with D3.js.",
-                "I then moved on to the development of a greenfield project called Common Data Provider for z Systems, which gathers log records from multiple sources in a z/OS system, perform data processing and forwards the data to multiple subscribers in the required format, through a single interface and configuration. My responsibility was to develop the Java component of the product, which performed data processing and sent the data out to subscribers in the configured format, either binary or json. During my involvement in this project, I was able to quickly gain a deep understanding of the Java component, and as an intern had the responsibility to design some features, such as the deserialization of input data which was delivered in a custom binary payload, and log record transform features. I was eventually considered the owner of the Java code, and was invited to travel to the US to provide training and hand over the project to a new development team. During the hand over period, I was able to identify and implement multiple performance improvements, which resulted in a ~20% increase in performance. I was also able to demonstrate my ability to be self-sufficient, working remotely with the development team in the US."
+                "I worked on developing proof of concept features for an existing product called z Operational Insights, which is a web application that provided mainframe operation insights by analyzing user uploaded mainframe logs. This story involved creating new REST API endpoints to an existing Java backend, to support additional log record types and perform analysis for new insights, passing data to the frontend as json. I was also involved in creating new UI elements which presented the new insights and gained experience in visualising data with D3.js.",
+                "I then moved on to the development of a greenfield project called Common Data Provider for z Systems, which gathers log records from multiple sources in a z/OS system, perform data processing and forwards the data to multiple subscribers in the required format, through a single interface and configuration. My responsibility was to develop the Java component of the product, which performed data processing and sent the data out to subscribers in the configured format, either binary or json. During my involvement in this project, I was able to quickly gain a deep understanding of the Java component, and as an intern had the responsibility to design some features, such as the deserialization of input data which was delivered in a custom binary payload, and log record transform features. I was eventually considered the owner of the Java code, and was invited to travel to the US to provide training and hand over the project to a new development team. During the hand over period, I was able to identify and implement multiple performance improvements, which resulted in a ~20% increase in performance. I was also able to demonstrate my ability to be self-sufficient, working remotely with the development team in the US.",
+                "I gained valuable experience in developing unit / integration tests with JUnit as well as stubbing with Mockito."
             ]
         }
     ],
@@ -102,7 +104,12 @@
                 "TDD",
                 "REST API",
                 "JSON",
-                "MessagePack"
+                "MessagePack",
+                "Unit / integration tests",
+                "JUnit",
+                "Mockito",
+                "xUnit",
+                "NSubstitute"
             ]
         },
         {
@@ -147,10 +154,11 @@
             "keywords": [
                 "Javascript",
                 "Angular.js",
+                "D3.js",
                 "Bootstrap",
                 "HTML",
                 "CSS",
-                "D3.js"
+                "PHP"
             ]
         },
         {
