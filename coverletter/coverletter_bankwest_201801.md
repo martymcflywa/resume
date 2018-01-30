@@ -1,51 +1,4 @@
-# Description
-
-[seek.com.au](https://www.seek.com.au/job/35235521)
-
-Join us at Bankwest where we strive to deliver what matters to our customers. Enjoy working with friendly colleagues in an environment where you feel like your contribution really counts.
-
-This is an opportunity for you to join an innovative modernisation program, with the support of a great team using user experience (UX) design, API development, continuous delivery and agile principles and practices.
-
-Bankwest are seeking a Software Developer with 2-4 years commercial experience to join a delivery team and help us deliver on our strategy.
-
-The role will be to bring practical experience of developing software and drive improvements in database. You will work together with this leading technology delivery team to shape the direction of this technology adoption and develop valuable experience.
-
-The Software Developer has the following responsibilities:
-
-- Hands on development in Java 8
-- Hands on relational database design and development
-- Hands on development of automated tests, test and build scripts, test data and test environments.
-- Working collaboratively with the other experienced Java developers in the team
-- Working across 2 departments to clarify and understand requirements
-- You are pragmatic, ensuring that the team delivers the best quality in the time we have.
-- Be an active member of a cross functional team willing to fulfil any role to achieve the goal of the iteration.
-- Help the team deliver at a predicable and sustainable pace
-
-Skills and experience required:
-
-- 2-4 years of commercial software development experience (predominately in Java)
-- Experience with relational database design and development.
-- Open to learning new tools and technologies
-- Bonus skills that will set you apart:
-    - Some experience with restful API development / JSON.
-    - Some UNIX experience.
-    - Experience writing automated tests in JUnit. Experienced in mocking or stubbing for testing.
-    - Experience with SAS.
-    - Experience with automated build tools such as Maven, TeamCity or Octopus Deploy.
- 
-Bankwest Place offers state of the art working conditions to help colleagues reach their creative potential and we offer competitive salary packages.For more information or a confidential discussion please call Toby Ainslie on 9369 8371 or Apply Now or visit bankwest.com.au/careers
-
-# Cover letter
-
-- Hands on development in Java 8
-    - zOI backend
-    - CDP Java 7
-- Hands on database design
-    - Loan book: Designed tables for read model persistence, analysed queries for performance
-    - Single customer view: 
-- Testing: automation, build scripts, test data, test environments
-    - AppVeyor yaml
-    - Powershell scripts
+To whom it may concern,
 
 I am writing with interest regarding the 'Software Developer' position advertised on [seek.com.au](https://www.seek.com.au/job/35235521). I am mature age student, in my third and final year of studying Bachelor of Computer Science at Edith Cowan University, majoring in Software Engineering and have two years industry experience. I spent 18 months at IBM as a full-time Software Developer Intern where I got hands on experience developing in Java. I have also recently completed a six month contract with Cash Converters, primarily working on business intelligence reporting read models and applications to improve marketing processes in C# and .NET.
 
@@ -61,4 +14,10 @@ Although the projects I have been involved with did not give me the opportunity 
 
 While I have yet to complete my degree, I believe that my demonstrated initiative, passion for software development and willingness to learn and share knowledge makes me a worthy candidate for the position, and plan to complete my degree by studying part time if successful in securing the role.
 
-I am excited to hear about this opportunity at Bankwest and would love to meet you to find out more. I appreciate your time and hope to hear from you soon.
+I am excited to hear about this opportunity at Bankwest and would love to meet you to find out more. I appreciate your time and I'm looking forward to hearing from you soon.
+
+Regards,
+
+Martin Ponce  
+0416 357 709  
+martin.ponce@outlook.com
