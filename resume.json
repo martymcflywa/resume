@@ -33,7 +33,7 @@
             "position": "Graduate Software Developer",
             "website": "http://cashconverters.com.au",
             "startDate": "2017-08-07",
-            "endDate": "2017-02-09",
+            "endDate": "2018-02-09",
             "summary": "I was employed at Cash Converters under a six month contract and was involved in two projects, Business Intelligence and Single Customer View, developing in .NET Core and C#. This opportunity exposed me to the CQRS pattern, event sourcing, and has furthered my experience in continuous integration/delivery.",
             "highlights": [
                 "I was involved in a project called Single Customer View, with the intention to unify customers, who exist as different entities within many Cash Converters systems, as a single customer, to facilitate consumer segmentation and improve target marketing strategies. My main responsibility was to develop customer extractor services, which read customer records from multiple sources, cleansed and validated the data, then persisted the record in a unified format to a NoSQL store for a transformer service to consume and perform customer matching processes. Customer sources ranged from traditional SQL databases to event sourced stores accessed via REST API. I worked with the marketing team to determine requirements, such as required fields, handling of international phone numbers, and the definition of a valid customer.",
@@ -52,7 +52,7 @@
             "summary": "Due to my HD grade average, I was invited to take part in ECU's Work Integrated Learning program, and applied for an internship at IBM. During my internship, I was heavily involved in the development of a brand new commercial product and gained valuable experience working in a professional environment where my knowledge, technical and interpersonal skills were put to the test in a software development role.",
             "highlights": [
                 "I worked on developing proof of concept features for an existing product called z Operational Insights, which is a web application that provided mainframe operation insights by analyzing user uploaded mainframe logs. This story involved creating new REST API endpoints to an existing Java backend, to support additional log record types and perform analysis for new insights, passing data to the frontend as json. I was also involved in creating new UI elements which presented the new insights and gained experience in visualising data with D3.js.",
-                "I then moved on to the development of a greenfield project called Common Data Provider for z Systems, which gathers log records from multiple sources in a z/OS system, perform data processing and forwards the data to multiple subscribers in the required format, through a single interface and configuration. My responsibility was to develop the Java component of the product, which performed data processing and sent the data out to subscribers in the configured format, either binary or json. During my involvement in this project, I was able to quickly gain a deep understanding of the Java component, and as an intern had the responsibility to design some features, such as the deserialization of input data which was delivered in a custom binary payload, and log record transform features. I was eventually considered the owner of the Java code, and was invited to travel to the US to provide training and hand over the project to a new development team. During the hand over period, I was able to identify and implement multiple performance improvements, which resulted in a ~20% increase in performance. I was also able to demonstrate my ability to be self-sufficient, working remotely with the development team in the US.",
+                "I then moved on to the development of a greenfield project called Common Data Provider for z Systems, which gathers log records from multiple sources in a z/OS system, perform data processing and forwards the data to multiple subscribers in the required format, through a single interface and configuration. My responsibility was to develop the Java component of the product, which performed data processing and sent the data out to subscribers in the configured format, either binary or json. During my involvement in this project, I was able to quickly gain a deep understanding of the Java component, and as an intern had the responsibility to design some features, such as the deserialization of input data which was delivered in a custom binary payload, and log record transform features. I was eventually considered the owner of the Java code, and was invited to travel to the US to provide training and hand over the project to a new development team. During the hand over period, I was able to identify and implement multiple performance improvements, resulting in significantly increased throughput. I was also able to demonstrate my ability to be self-sufficient, working remotely with the development team in the US.",
                 "During my time at IBM, I gained valuable experience in developing unit / integration tests with JUnit as well as stubbing with Mockito."
             ]
         }
@@ -64,21 +64,21 @@
             "studyType": "Bachelor",
             "startDate": "2014-06-01",
             "endDate": "2018-06-01",
-            "gpa": "83.23",
+            "gpa": "82.08",
             "courses": [
-                "CSG1132: Communicating in an IT Environment",
-                "CSI1241: Systems Analysis",
-                "CSP1150: Programming Principles",
-                "ENS1161: Computer Fundamentals",
-                "CSG1105: Applied Communications",
-                "CSG1207: Systems and Database Design",
-                "CSI1101: Computer Security",
-                "CSP2348: Data Structures",
-                "CSG1102: Operating Systems",
-                "CSG2341: Intelligent Systems",
-                "CSG2344: Project Methods and Professionalism",
-                "CSI2441: Applications Development",
-                "CSI3345: Work Integrated Learning (IBM Internship)"
+                "CSG1132: Communicating in an IT Environment (76 D)",
+                "CSI1241: Systems Analysis (80 HD)",
+                "CSP1150: Programming Principles (99 HD)",
+                "ENS1161: Computer Fundamentals (91 HD)",
+                "CSG1105: Applied Communications (77 D)",
+                "CSG1207: Systems and Database Design (96 HD)",
+                "CSI1101: Computer Security (81 HD)",
+                "CSP2348: Data Structures (83 HD)",
+                "CSG1102: Operating Systems (89 HD)",
+                "CSG2341: Intelligent Systems (85 HD)",
+                "CSG2344: Project Methods and Professionalism (73 D)",
+                "CSI2441: Applications Development (67 CR)",
+                "CSI3345: Work Integrated Learning (IBM Internship) (70 D)"
             ]
         },
         {
