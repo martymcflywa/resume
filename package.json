@@ -1,0 +1,28 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "resume export target/index.html --theme spartan",
+    "serve": "resume serve --theme spartan",
+    "deploy": "node deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martymcflywa/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martymcflywa/resume/issues"
+  },
+  "homepage": "https://github.com/martymcflywa/resume#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.496.0",
+    "jsonresume-theme-spartan": "^0.2.1",
+    "resume-cli": "^1.2.4"
+  },
+  "dependencies": {}
+}
