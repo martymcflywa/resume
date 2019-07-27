@@ -1,196 +1,223 @@
 {
-    "basics": {
-        "name": "Martin Ponce",
-        "label": "Junior Software Developer",
-        "picture": "http://martinponce.com.au/img/marty.png",
-        "email": "martin.ponce@outlook.com",
-        "phone": "+61 416 357 709",
-        "website": "http://martinponce.com.au",
-        "summary": "Primarily a backend junior developer with two years industry experience and a handful of units left for his Computer Science degree, and has goals of becoming a full stack developer. Originally from Sydney, he enjoys watching and playing basketball, video games, and the company of his wife, new-born son and pet beagle named Charlie.",
-        "location": {
-            "address": "U2 / 93 Scarborough Beach Rd.",
-            "postalCode": "6016",
-            "city": "Mt Hawthorn",
-            "countryCode": "AU",
-            "region": "WA"
-        },
-        "profiles": [
-            {
-                "network": "Github",
-                "username": "martymcflywa",
-                "url": "https://github.com/martymcflywa"
-            },
-            {
-                "network": "LinkedIn",
-                "username": "Martin Ponce",
-                "url": "https://www.linkedin.com/in/martin-ponce-0b350871/"
-            }
-        ]
+  "basics": {
+    "name": "Martin Ponce",
+    "label": "Software Developer",
+    "picture": "https://resume.martinponce.com.au/img/marty.png",
+    "email": "martin.ponce@outlook.com",
+    "phone": "+61 416 357 709",
+    "website": "https://resume.martinponce.com.au",
+    "summary": "Martin is a software developer with experience in delivering clean, testable and maintainable solutions and system improvements. With plenty of experience in establishing and maintaining continuous integration pipelines and delivery automation, he has aspirations to become a well rounded full stack developer. Outside of work, he enjoys spending time with his family, watching and playing basketball and hanging out with his pet beagle named Charlie.",
+    "location": {
+      "address": "U2 / 93 Scarborough Beach Rd",
+      "postalCode": "6016",
+      "city": "Mount Hawthorn",
+      "countryCode": "AU",
+      "region": "WA"
     },
-    "work": [
-        {
-            "company": "Cash Converters, Perth",
-            "position": "Graduate Software Developer",
-            "website": "http://cashconverters.com.au",
-            "startDate": "2017-08-07",
-            "endDate": "2018-02-09",
-            "summary": "I was employed at Cash Converters under a six month contract and was involved in two projects, Business Intelligence and Single Customer View, developing in .NET Core and C#. This opportunity exposed me to the CQRS pattern, event sourcing, and has furthered my experience in continuous integration/delivery.",
-            "highlights": [
-                "I was involved in a project called Single Customer View, with the intention to unify customers, who exist as different entities within many Cash Converters systems, as a single customer, to facilitate consumer segmentation and improve target marketing strategies. My main responsibility was to develop customer extractor services, which read customer records from multiple sources, cleansed and validated the data, then persisted the record in a unified format to a NoSQL store for a transformer service to consume and perform customer matching processes. Customer sources ranged from traditional SQL databases to event sourced stores accessed via REST API. I worked with the marketing team to determine requirements, such as required fields, handling of international phone numbers, and the definition of a valid customer.",
-                "I assisted in the development of a contractless event source replicator, which replicated the Personal Finance event source into a flat file binary MessagePack format. The intention was to improve reporting read model population, by substituting event source reads from a remote SQL server, with reads from flat files, stored locally to the read model population service host, on NVMe drives. I was also responsible for developing packages which enabled internal developers to take advantage of the speed improvements offered by the flat file event source and listen to events from them in other internal projects.",
-                "I was involved in making improvements to the existing CI/CD pipeline in AppVeyor and Octopus Deploy, speeding up test times by avoiding redundant rebuilds. I was also responsible for improving deployment resiliency by ensuring that all dependencies are packed into the release package, avoiding the need for access to nuget.org for applications deployed on-premise.",
-                "I was responsible for developing a 'Loan Book' event source read model for a PowerBI driven Executive Dashboard, providing a view of outstanding loan balances, broken down and filterable by product, date, working closely with stakeholders from Personal Finance to understand and implement business rules around the calculation of the loan book balance.",
-                "I followed standard practices while at Cash Converters, following test/behaviour driven development using xUnit and BDDfy behaviour driven development framework, stubbing with NSubstitute and upholding SOLID principles to ensure clean, testable code, while actively engaging in code reviews with my peers, as both a reviewee and reviewer. I also followed Cash Converters' development lifecycle, starting each story with a kickoff alongside a tester to define acceptance criteria to devboxing with a tester once my PRs have been reviewed, accepted and ready for UAT."
-            ]
-        },
-        {
-            "company": "IBM, Perth",
-            "position": "Intern Software Developer",
-            "website": "http://ibm.com.au",
-            "startDate": "2016-01-18",
-            "endDate": "2017-07-28",
-            "summary": "Due to my HD grade average, I was invited to take part in ECU's Work Integrated Learning program, and applied for an internship at IBM. During my internship, I was heavily involved in the development of a brand new commercial product and gained valuable experience working in a professional environment where my knowledge, technical and interpersonal skills were put to the test in a software development role.",
-            "highlights": [
-                "I worked on developing proof of concept features for an existing product called z Operational Insights, which is a web application that provided mainframe operation insights by analyzing user uploaded mainframe logs. This story involved creating new REST API endpoints to an existing Java backend, to support additional log record types and perform analysis for new insights, passing data to the frontend as json. I was also involved in creating new UI elements which presented the new insights and gained experience in visualising data with D3.js.",
-                "I then moved on to the development of a greenfield project called Common Data Provider for z Systems, which gathers log records from multiple sources in a z/OS system, perform data processing and forwards the data to multiple subscribers in the required format, through a single interface and configuration. My responsibility was to develop the Java component of the product, which performed data processing and sent the data out to subscribers in the configured format, either binary or json. During my involvement in this project, I was able to quickly gain a deep understanding of the Java component, and as an intern had the responsibility to design some features, such as the deserialization of input data which was delivered in a custom binary payload, and log record transform features. I was eventually considered the owner of the Java code, and was invited to travel to the US to provide training and hand over the project to a new development team. During the hand over period, I was able to identify and implement multiple performance improvements, resulting in significantly increased throughput. I was also able to demonstrate my ability to be self-sufficient, working remotely with the development team in the US.",
-                "During my time at IBM, I gained valuable experience in developing unit / integration tests with JUnit as well as stubbing with Mockito."
-            ]
-        }
-    ],
-    "education": [
-        {
-            "institution": "ECU, Perth",
-            "area": "Computer Science, Software Engineer Major",
-            "studyType": "Bachelor",
-            "startDate": "2014-06-01",
-            "endDate": "2018-06-01",
-            "gpa": "82.08",
-            "courses": [
-                "CSG1132: Communicating in an IT Environment (76 D)",
-                "CSI1241: Systems Analysis (80 HD)",
-                "CSP1150: Programming Principles (99 HD)",
-                "ENS1161: Computer Fundamentals (91 HD)",
-                "CSG1105: Applied Communications (77 D)",
-                "CSG1207: Systems and Database Design (96 HD)",
-                "CSI1101: Computer Security (81 HD)",
-                "CSP2348: Data Structures (83 HD)",
-                "CSG1102: Operating Systems (89 HD)",
-                "CSG2341: Intelligent Systems (85 HD)",
-                "CSG2344: Project Methods and Professionalism (73 D)",
-                "CSI2441: Applications Development (67 CR)",
-                "CSI3345: Work Integrated Learning (IBM Internship) (70 D)"
-            ]
-        },
-        {
-            "institution": "KvB Institute of Technology, Sydney",
-            "area": "Graphic Design, Print and Digital Media",
-            "studyType": "Diploma",
-            "startDate": "2002-01-01",
-            "endDate": "2003-12-01",
-            "gpa": "76.46"
-        }
-    ],
-    "skills": [
-        {
-            "name": "Backend",
-            "level": "Advanced",
-            "keywords": [
-                "Java",
-                "Spring",
-                "C#",
-                ".NET Core",
-                ".NET MVC",
-                "BDD",
-                "TDD",
-                "REST API",
-                "JSON",
-                "MessagePack",
-                "Unit / integration tests",
-                "JUnit",
-                "Mockito",
-                "xUnit",
-                "NSubstitute"
-            ]
-        },
-        {
-            "name": "Database",
-            "level": "Advanced",
-            "keywords": [
-                "Relational database design",
-                "Normalization",
-                "MS SQL",
-                "MySQL",
-                "NoSQL"
-            ]
-        },
-        {
-            "name": "Continuous Integration/Delivery",
-            "level": "Intermediate",
-            "keywords": [
-                "Gradle",
-                "AppVeyor",
-                "TravisCI",
-                "Octopus Deploy",
-                "Powershell CLI / scripting",
-                "Linux CLI / scripting"
-            ]
-        },
-        {
-            "name": "Project",
-            "level": "Intermediate",
-            "keywords": [
-                "Agile",
-                "JIRA",
-                "Confluence",
-                "Git",
-                "RTC",
-                "Standup",
-                "Scrum"
-            ]
-        },
-        {
-            "name": "Web Frontend",
-            "level": "Beginner",
-            "keywords": [
-                "Javascript",
-                "Angular.js",
-                "D3.js",
-                "HTML",
-                "CSS",
-                "Bootstrap",
-                "PHP"
-            ]
-        },
-        {
-            "name": "Cloud",
-            "level": "Beginner",
-            "keywords": [
-                "Azure",
-                "Azure Blob Storage",
-                "Azure Table Storage"
-            ]
-        }
-    ],
-    "interests": [
-        {
-            "name": "Basketball",
-            "keywords": [
-                "Weekly competition",
-                "NBA fan"
-            ]
-        },
-        {
-            "name": "DJ / Music production",
-            "keywords": [
-                "Played gigs around Perth in my former life"
-            ]
-        },
-        {
-            "name": "Gaming",
-            "keywords": [
-                "PC",
-                "PS4"
-            ]
-        }
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "martymcflywa",
+        "url": "https://github.com/martymcflywa"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Martin Ponce",
+        "url": "https://www.linkedin.com/in/martin-ponce-0b350871/"
+      }
     ]
+  },
+  "work": [
+    {
+      "company": "Bankwest, Perth",
+      "position": "Java Developer",
+      "website": "https://bankwest.com.au",
+      "startDate": "2018-03-26",
+      "highlights": [
+        "Received numerous awards and recognition for challenging the status quo of previous performance tests and taking ownership of the design and delivery of a more resilient, accurate, flexible, highly automated and easier to maintain framework solution in JMeter.",
+        "Created interactive dashboards and data visualisation for performance test results using Elastic Search, Logstash and Kibana, paired with an automated pdf report generation and distribution tool written in Typescript and Nodejs.",
+        "One of only a few team members cross skilled, capable and responsible for the maintenance and improvement of three different platforms.",
+        "Delivered features and bug fixes for an internal Java lending application hosted on JBoss EAP.",
+        "Contributed to the migration of an internal lending application from Java 7 to OpenJDK 8 and JBoss EAP 5 to JBoss EAP 7.1, which not only involved code updates, but also infrastructure setup and configuration.",
+        "Delivered features and bug fixes for a core banking REST API platform using metaprogramming techniques with xtend/xtext, deployed to a mainframe environment.",
+        "Delivered features and bug fixes for a Spring based legal document distribution application."
+      ]
+    },
+    {
+      "company": "Cash Converters, Perth",
+      "position": "Graduate Software Developer",
+      "website": "https://cashconverters.com.au",
+      "startDate": "2017-08-07",
+      "endDate": "2018-02-09",
+      "highlights": [
+        "Responsible for the development of customer datalake import services which extracted, validated, cleansed and matched customer data from many Cash Converter systems and persisted the data to a cloud NoSQL store to facilitate consumer segmentation and improve marketing strategies.",
+        "Developed an event source replication library which considerably improved read model population, consumed by business intelligence reports, by utilizing flat file binary formats, cached on high speed NVMe drives.",
+        "Improved efficiency and resiliency of AppVeyor and Octopus Deploy CI/CD pipelines.",
+        "Developed a 'Loan Book' event source read model for a PowerBI driven Executive Dashboard, providing an interactive view of outstanding loan balances.",
+        "Gained experience in behaviour driven development, and followed SOLID principles while following Cash Converters standard practices to ensure code quality."
+      ]
+    },
+    {
+      "company": "IBM, Perth",
+      "position": "Intern Software Developer",
+      "website": "https://ibm.com.au",
+      "startDate": "2016-01-18",
+      "endDate": "2017-07-28",
+      "highlights": [
+        "Added support for new log types and additional dashboards for a mainframe log analysis application, involving the creation of new server-side REST endpoints, additional Angular components for the user interface, and data visualisation with D3.js.",
+        "Developed the Java component of a mainframe log consolidation application, which was responsible for accepting events from multiple mainframe sources in their raw format, performed data processing and transformation, then pushed the log events to subscribers, formatted as required by the subscriber.",
+        "Even as an intern, I was considered a subject matter expert in the development of the log consolidation application, and was invited to IBM's Raleigh, North Carolina campus to hand over the project to a new team who were to take over its maintenance and development.",
+        "Assigned to the team in Raleigh, North Carolina and gained experience in working remotely, attending their stand ups via video chat during US East Coast business hours."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "ECU, Perth",
+      "area": "Computer Science, Software Engineer Major",
+      "studyType": "Bachelor",
+      "startDate": "2014-06-01",
+      "endDate": "2018-06-01",
+      "gpa": "3.875",
+      "courses": [
+        "CSG1132: Communicating in an IT Environment (76 D)",
+        "CSI1241: Systems Analysis (80 HD)",
+        "CSP1150: Programming Principles (99 HD)",
+        "ENS1161: Computer Fundamentals (91 HD)",
+        "CSG1105: Applied Communications (77 D)",
+        "CSG1207: Systems and Database Design (96 HD)",
+        "CSI1101: Computer Security (81 HD)",
+        "CSP2348: Data Structures (83 HD)",
+        "CSG1102: Operating Systems (89 HD)",
+        "CSG2341: Intelligent Systems (85 HD)",
+        "CSG2344: Project Methods and Professionalism (73 D)",
+        "CSI2441: Applications Development (67 CR)",
+        "CSI3345: Work Integrated Learning (IBM Internship) (70 D)",
+        "CSP2108: Introduction to Mobile Applications Development (67 CR)",
+        "CSP2104: Object-oriented Programming with C++ (98 HD)"
+      ]
+    },
+    {
+      "institution": "KvB Institute of Technology, Sydney",
+      "area": "Graphic Design, Print and Digital Media",
+      "studyType": "Diploma",
+      "startDate": "2002-01-01",
+      "endDate": "2003-12-01",
+      "gpa": "76.46"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java server side",
+      "level": "Master",
+      "keywords": [
+        "Maven",
+        "Gradle",
+        "Spring",
+        "JBoss",
+        "REST API",
+        "TDD",
+        "JUnit",
+        "Mockito",
+        "BDD",
+        "JBehave"
+      ]
+    },
+    {
+      "name": "Version control",
+      "level": "Master",
+      "keywords": [
+        "git",
+        "github",
+        "bitbucket",
+        "gitlab"
+      ]
+    },
+    {
+      "name": "Persistence",
+      "level": "Advanced",
+      "keywords": [
+        "Relational database design",
+        "Normalization",
+        "MS SQL",
+        "PL/SQL",
+        "MySQL",
+        "NoSQL"
+      ]
+    },
+    {
+      "name": "CI/CD automation",
+      "level": "Advanced",
+      "keywords": [
+        "TeamCity",
+        "Jenkins",
+        "AppVeyor",
+        "TravisCI",
+        "Octopus Deploy",
+        "Powershell scripting",
+        "Bash scripting"
+      ]
+    },
+    {
+      "name": "Project",
+      "level": "Advanced",
+      "keywords": [
+        "Agile",
+        "Jira",
+        "Confluence",
+        "Git",
+        "RTC",
+        "Scrum"
+      ]
+    },
+    {
+      "name": "Client side",
+      "level": "Intermediate",
+      "keywords": [
+        "Javascript",
+        "Angular.js",
+        "Typescript",
+        "D3.js",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "PHP"
+      ]
+    },
+    {
+      "name": ".NET",
+      "level": "Intermediate",
+      "keywords": [
+        "C#",
+        ".NET Core",
+        ".NET MVC",
+        "MessagePack",
+        "xUnit",
+        "NSubstitute",
+        "BDDfy"
+      ]
+    },
+    {
+      "name": "Cloud native",
+      "level": "Intermediate",
+      "keywords": [
+        "Azure",
+        "AWS"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Basketball",
+      "keywords": ["Weekly competition", "NBA fan"]
+    },
+    {
+      "name": "DJ / Music production",
+      "keywords": ["Was a DJ in Perth nightclubs in my former life"]
+    },
+    {
+      "name": "Gaming",
+      "keywords": ["PC", "PS4"]
+    }
+  ]
 }
