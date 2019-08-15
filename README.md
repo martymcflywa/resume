@@ -8,30 +8,50 @@ https://resume.martinponce.com.au
 
 # Usage
 
-## Getting started
+## Get started
+
+Install npm dependencies.
 
 ```
 npm install
 ```
 
+## Test
+
+Verify json schema.
+
+```
+npm run test
+```
+
+## Export to html
+
+Render `target/index.html` using the [spartan](https://github.com/phoinixi/jsonresume-theme-spartan) template.
+
+```
+npm run html
+```
+
+## Export to pdf
+
+Render `target/resume.pdf` using the [spartan](https://github.com/phoinixi/jsonresume-theme-spartan) template.
+
+```
+npm run pdf
+```
+
 ## Serve
+
+Host a local server with auto refresh using the [spartan](https://github.com/phoinixi/jsonresume-theme-spartan) template.
 
 ```
 npm run serve
 ```
 
-## Build
-
-```
-npm run build
-```
-
-This will render the resume as html using the [spartan](https://github.com/phoinixi/jsonresume-theme-spartan) template at `target/index.html`
-
 ## Deploy
+
+Upload `target/index.html` to my AWS S3 bucket. In order to authenticate, `deploy.js` assumes that [shared credentials](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/loading-node-credentials-shared.html) are defined at `~/.aws/credentials`.
 
 ```
 npm run deploy
 ```
-
-This will upload `target/index.html` to my AWS S3 bucket. In order to authenticate, `deploy.js` assumes that [shared credentials](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/loading-node-credentials-shared.html) are defined at `~/.aws/credentials`.

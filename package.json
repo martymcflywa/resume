@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "resume export target/index.html --theme spartan",
+    "test": "resume test",
+    "html": "resume export target/index.html --theme spartan",
+    "pdf": "resume export target/resume.pdf --theme spartan",
     "serve": "resume serve --theme spartan",
-    "deploy": "node deploy.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "node deploy.js"
   },
   "repository": {
     "type": "git",
