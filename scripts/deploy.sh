@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! -d "./target" ]
+if [ ! -d "./target" ]; then
   mkdir "./target"
 fi
 
