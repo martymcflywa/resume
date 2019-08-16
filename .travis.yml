@@ -4,6 +4,8 @@ node_js:
 branches:
   only:
     - master
+install:
+  npm install
 deploy:
   provider: script
   script : npm run html; npm run deploy
