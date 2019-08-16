@@ -8,6 +8,6 @@ install:
   npm install
 deploy:
   provider: script
-  script : npm run html; npm run deploy
+  script : npm install; npm run html; npm run deploy
   on:
     branch: master
