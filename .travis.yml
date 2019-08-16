@@ -1,3 +1,11 @@
 language: node_js
 node_js:
   - 12
+branches:
+  only:
+    - master
+deploy:
+  provider: script
+  script : npm run html; npm run deploy
+  on:
+    branch: master
