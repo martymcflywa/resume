@@ -4,3 +4,8 @@ node_js:
 branches:
   only:
     - master
+deploy:
+  provider: script
+  script : npm run html; npm run deploy
+  on:
+    branch: master
