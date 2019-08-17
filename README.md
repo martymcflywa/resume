@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/martymcflywa/resume.svg?branch=master)](https://travis-ci.org/martymcflywa/resume)
+
 # Resume
 
 My resume is created with a cool little tool called [jsonresume](https://jsonresume.org/), which allows you to define your resume as json. It can then be rendered as pdf or html using different templates.
