@@ -16,8 +16,9 @@ deploy:
   secret_access_key:
     secure: K0waS9L4iPuVgbTHxOYpvlEvO1JvQlgit82ih2LKIuBaF87rqEEIKNyJxYyz3wYCZd/qT9o19kfykyDCsT8wcMI6E7Sl/HOinZ3emS1ulUd5yNV7ZcC74Y3ems7TANQFm6uv6JXXG+PAcxHzBxC2Y8UY7U2fUqMX4xkfC7KMTqWLlAyWX5rWkDpD+eKmgDkSKAljMdaA1XkFOJipFe5n28w+BnzDaSTErsNusBqh8Tkws75kzQqGrFUw9WD3CppNT5VmkB0Kj3Gfkf/lk6Uw1eQQBwiu8WfKhGL7uTlV+RnUw0cUwltr0IVt6ksgwaPUOTHKft6oFc/8gvm2Qn6W110k3vBDJEZM7fzEOs2al/2G8Oq+lWuT8zq6WXo9J9BtsG97ko+mGMnakQbVvqi5g/WOoRZb4pvjszQjBvcdzWVtd+9cWJVBmn4KN+nIugcPs8C/B+Lvb7lucFGUNKeDhd9W4nRGK0VzTV6RkHaJt5V8GmBctzgIjLbkapw57ydsPPap9yDaFMF0C1ohbLA/sgWG0W32DFSEehR6FGpL+WpLbrhet0jTJG8eIjpj/eI4W+uSR9fTDF+ki/KNsX6Wv5LdQMdw5mBxQ2+cfPV/0U80k3D1GEpLyhLkPBRFwbNd/ONrTHUqDN288bo0l5W1WQaP7Ui7Y6z0za/fUFCA0LA=
   bucket: resume.martinponce.com.au
+  endpoint: resume.martinponce.com.au.s3-website-ap-southeast-2.amazonaws.com
   region: ap-southeast-2
-  local-dir: target
+  local_dir: target
   acl: public_read
   on:
     repo: martymcflywa/resume
