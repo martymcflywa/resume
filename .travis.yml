@@ -5,10 +5,12 @@ branches:
   only:
   - master
 install:
+  - mkdir target
   - npm install
+script:
+  - npm run html
 deploy:
   skip_cleanup: true
-  before_deploy: ./scripts/build.sh
   provider: s3
   access_key_id: AKIASJAEFDVK5EEVZ2EW
   secret_access_key:
