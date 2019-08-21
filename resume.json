@@ -132,15 +132,13 @@
       ]
     },
     {
-      "name": "Persistence",
+      "name": "Relational database",
       "level": "Advanced",
       "keywords": [
-        "Relational database design",
-        "Normalization",
+        "Design and normalization",
         "MS SQL",
         "PL/SQL",
-        "MySQL",
-        "NoSQL"
+        "MySQL"
       ]
     },
     {
@@ -151,7 +149,6 @@
         "Jenkins",
         "AppVeyor",
         "TravisCI",
-        "Octopus Deploy",
         "Powershell scripting",
         "Bash scripting"
       ]
@@ -173,7 +170,7 @@
       "level": "Intermediate",
       "keywords": [
         "Javascript",
-        "Angular.js",
+        "Angular",
         "Typescript",
         "D3.js",
         "HTML",
@@ -210,12 +207,12 @@
       "keywords": ["Weekly competition", "NBA fan"]
     },
     {
-      "name": "DJ / Music production",
-      "keywords": ["Was a DJ in Perth nightclubs in my former life"]
+      "name": "Gaming",
+      "keywords": ["Flight sims", "DCS", "Falcon BMS", "Racing sims", "PC", "PS4"]
     },
     {
-      "name": "Gaming",
-      "keywords": ["PC", "PS4"]
+      "name": "DJ / Music production",
+      "keywords": ["Serato", "Ableton Live"]
     }
   ]
 }
