@@ -6,7 +6,7 @@
     "email": "martin.ponce@outlook.com",
     "phone": "+61 416 357 709",
     "website": "https://resume.martinponce.com.au",
-    "summary": "Martin is a software developer with experience in delivering clean, testable and maintainable solutions and system improvements. With plenty of experience in establishing and maintaining continuous integration pipelines and delivery automation, he has aspirations to become a well rounded full stack developer. Outside of work, he enjoys spending time with his family, watching and playing basketball and hanging out with his pet beagle named Charlie.",
+    "summary": "I am a software developer with experience in delivering clean, testable and maintainable solutions and system improvements. With plenty of experience in establishing and maintaining continuous integration pipelines and delivery automation, I aspire to become a well rounded full stack developer. Outside of work, I enjoy spending time with my family, watching and playing basketball and writing electronic music whenever I have spare time.",
     "location": {
       "address": "U2 / 93 Scarborough Beach Rd",
       "postalCode": "6016",
@@ -30,13 +30,14 @@
   "work": [
     {
       "company": "Bankwest, Perth",
-      "position": "Java Developer",
+      "position": "Java Developer, Senior IT Specialist (from November 2019)",
       "website": "https://bankwest.com.au",
       "startDate": "2018-03-26",
       "highlights": [
         "Received numerous awards and recognition for challenging the status quo of previous performance tests and taking ownership of the design and delivery of a more resilient, accurate, flexible, highly automated and easier to maintain framework solution in JMeter.",
         "Created interactive dashboards and data visualisation for performance test results using Elastic Search, Logstash and Kibana, paired with an automated pdf report generation and distribution tool written in Typescript and Nodejs.",
         "One of only a few team members cross skilled, capable and responsible for the maintenance and improvement of three different platforms.",
+        "I have automated many tasks that my team mates and I perform, such as setting up our development environment, to managing CI pipelines, deploying builds and triggering test suites using Jenkins and TeamCity, increasing our speed to get code into production.",
         "Delivered features and bug fixes for an internal Java lending application hosted on JBoss EAP.",
         "Contributed to the migration of an internal lending application from Java 7 to OpenJDK 8 and JBoss EAP 5 to JBoss EAP 7.1, which not only involved code updates, but also infrastructure setup and configuration.",
         "Delivered features and bug fixes for a core banking REST API platform using metaprogramming techniques with xtend/xtext, deployed to a mainframe environment.",
