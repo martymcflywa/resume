@@ -29,10 +29,18 @@
   },
   "work": [
     {
+      "company": "21st Century Software, Perth",
+      "position": "Software Engineer",
+      "website": "https://www.21stcenturysoftware.com/",
+      "startDate": "2020-11-02",
+      "highlights": []
+    },
+    {
       "company": "Bankwest, Perth",
       "position": "Java Developer, Senior IT Specialist (from November 2019)",
       "website": "https://bankwest.com.au",
       "startDate": "2018-03-26",
+      "endDate": "2020-10-30",
       "highlights": [
         "Received numerous awards and recognition for challenging the status quo of previous performance tests and taking ownership of the design and delivery of a more resilient, accurate, flexible, highly automated and easier to maintain framework solution in JMeter.",
         "Created interactive dashboards and data visualisation for performance test results using Elastic Search, Logstash and Kibana, paired with an automated pdf report generation and distribution tool written in Typescript and Nodejs.",
@@ -101,8 +109,8 @@
       "institution": "KvB Institute of Technology, Sydney",
       "area": "Graphic Design, Print and Digital Media",
       "studyType": "Diploma",
-      "startDate": "2002-01-01",
-      "endDate": "2003-12-01"
+      "startDate": "2003-02-17",
+      "endDate": "2004-05-07"
     }
   ],
   "skills": [
