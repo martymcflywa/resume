@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/martymcflywa/resume#readme",
   "devDependencies": {
-    "aws-sdk": "2.783.0",
+    "aws-sdk": "2.800.0",
     "jsonresume-theme-spartan": "0.3.0",
     "resume-cli": "2.0.0"
   }
