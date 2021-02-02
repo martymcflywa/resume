@@ -23,6 +23,6 @@
   "devDependencies": {
     "aws-sdk": "2.834.0",
     "jsonresume-theme-spartan": "0.3.0",
-    "resume-cli": "3.0.3"
+    "resume-cli": "3.0.4"
   }
 }
