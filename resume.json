@@ -33,7 +33,12 @@
       "position": "Software Engineer",
       "website": "https://www.21stcenturysoftware.com/",
       "startDate": "2020-11-02",
-      "highlights": []
+      "highlights": [
+        "Formalised Java component build processes by migrating projects from Ant to Maven, and automated the process using Jenkins on a zLinux build server.",
+        "Implemented a 'Fractal Forecasting' algorithm, to provide insights for Mainframe resource consumption for future yearly events which may not occur on the same date.",
+        "Implemented a 'Workload Simulator' forecasting algorithm, to provide insights for Mainframe resource consumption by modelling how a mainframe dispatches work to its processors, while applying increased growth of work and/or hypothetical hardware upgrades.",
+        "Responsible for technical writing, by updating the manual to explain how to use the new features I implement in the product."
+      ]
     },
     {
       "company": "Bankwest, Perth",
