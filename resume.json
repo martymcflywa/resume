@@ -29,10 +29,18 @@
   },
   "work": [
     {
+      "company": "Campfire Digital Technology",
+      "position": "Senior Java Developer",
+      "website": "https://campfire.com.au/",
+      "startDate": "2021-05-17",
+      "highlights": []
+    },
+    {
       "company": "21st Century Software, Perth",
       "position": "Software Engineer",
       "website": "https://www.21stcenturysoftware.com/",
       "startDate": "2020-11-02",
+      "endDate": "2021-05-14",
       "highlights": [
         "Formalised Java component build processes by migrating projects from Ant to Maven, and automated the process using Jenkins on a zLinux build server.",
         "Implemented a 'Fractal Forecasting' algorithm, to provide insights for Mainframe resource consumption for future yearly events which may not occur on the same date.",
