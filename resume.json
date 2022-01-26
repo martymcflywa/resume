@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Martin Ponce",
-    "label": "Software Developer",
+    "label": "Full Stack Software Developer",
     "picture": "https://resume.martinponce.com.au/img/marty.png",
     "email": "martin.ponce@outlook.com",
     "phone": "+61 416 357 709",
     "website": "https://resume.martinponce.com.au",
-    "summary": "I am a software developer with experience in delivering clean, testable and maintainable solutions and system improvements. With plenty of experience in establishing and maintaining continuous integration pipelines and delivery automation, I aspire to become a well rounded full stack developer. Outside of work, I enjoy spending time with my family, watching and playing basketball and writing electronic music whenever I have spare time.",
+    "summary": "I am a full stack software developer with experience in delivering clean, testable and maintainable solutions and system improvements. With plenty of experience in establishing and maintaining continuous integration pipelines and delivery automation, I am well equipped to take responsibility of devops tasks as well. Outside of work, I enjoy spending time with my family, watching and playing basketball and writing electronic music whenever I have spare time.",
     "location": {
-      "address": "U2 / 93 Scarborough Beach Rd",
-      "postalCode": "6016",
-      "city": "Mount Hawthorn",
+      "address": "154A Flinders St",
+      "postalCode": "6060",
+      "city": "Yokine",
       "countryCode": "AU",
       "region": "WA"
     },
@@ -33,7 +33,11 @@
       "position": "Senior Java Developer",
       "website": "https://campfire.com.au/",
       "startDate": "2021-05-17",
-      "highlights": []
+      "highlights": [
+        "Placed at Department of Education, and part of a team responsible for modernising the tech stack of a Liferay based web application, widely used by teachers, students and parents.",
+        "Tasked with porting views from Java/Vaadin to Angular (v11), creating responsive components using atomic design principles to promote clean, reusable and DRY code.",
+        "Involved with designing JSON schemas and implementing / updating Spring REST endpoints to expose logic and data models to and from the Angular frontend."
+      ]
     },
     {
       "company": "21st Century Software, Perth",
@@ -99,24 +103,7 @@
       "area": "Computer Science, Software Engineer Major",
       "studyType": "Bachelor",
       "startDate": "2014-06-01",
-      "gpa": "3.875",
-      "courses": [
-        "CSG1132: Communicating in an IT Environment (76 D)",
-        "CSI1241: Systems Analysis (80 HD)",
-        "CSP1150: Programming Principles (99 HD)",
-        "ENS1161: Computer Fundamentals (91 HD)",
-        "CSG1105: Applied Communications (77 D)",
-        "CSG1207: Systems and Database Design (96 HD)",
-        "CSI1101: Computer Security (81 HD)",
-        "CSP2348: Data Structures (83 HD)",
-        "CSG1102: Operating Systems (89 HD)",
-        "CSG2341: Intelligent Systems (85 HD)",
-        "CSG2344: Project Methods and Professionalism (73 D)",
-        "CSI2441: Applications Development (67 CR)",
-        "CSI3345: Work Integrated Learning (IBM Internship) (70 D)",
-        "CSP2108: Introduction to Mobile Applications Development (67 CR)",
-        "CSP2104: Object-oriented Programming with C++ (98 HD)"
-      ]
+      "endDate": "2019-06-01"
     },
     {
       "institution": "KvB Institute of Technology, Sydney",
@@ -154,6 +141,20 @@
       ]
     },
     {
+      "name": "Client side",
+      "level": "Master",
+      "keywords": [
+        "Javascript",
+        "Angular",
+        "Typescript",
+        "D3.js",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "PHP"
+      ]
+    },
+    {
       "name": "Relational database",
       "level": "Advanced",
       "keywords": [
@@ -172,7 +173,8 @@
         "AppVeyor",
         "TravisCI",
         "Powershell scripting",
-        "Bash scripting"
+        "Bash scripting",
+        "Docker"
       ]
     },
     {
@@ -185,20 +187,6 @@
         "Git",
         "RTC",
         "Scrum"
-      ]
-    },
-    {
-      "name": "Client side",
-      "level": "Intermediate",
-      "keywords": [
-        "Javascript",
-        "Angular",
-        "Typescript",
-        "D3.js",
-        "HTML",
-        "CSS",
-        "Bootstrap",
-        "PHP"
       ]
     },
     {
@@ -226,11 +214,7 @@
   "interests": [
     {
       "name": "Basketball",
-      "keywords": ["Weekly competition", "NBA fan"]
-    },
-    {
-      "name": "Gaming",
-      "keywords": ["Flight sims", "DCS", "Falcon BMS", "Racing sims", "PC", "PS4"]
+      "keywords": ["Casual player", "NBA fan", "Wildcats fan"]
     },
     {
       "name": "DJ / Music production",
