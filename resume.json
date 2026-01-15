@@ -2,10 +2,10 @@
   "basics": {
     "name": "Martin Ponce",
     "label": "Full Stack Software Developer",
-    "picture": "https://resume.martinponce.com.au/img/marty.png",
+    "picture": "https://resume.martinponce.xyz/img/marty.png",
     "email": "martin.ponce@outlook.com",
     "phone": "+61 416 357 709",
-    "website": "https://resume.martinponce.com.au",
+    "website": "https://resume.martinponce.xyz",
     "summary": "I am a full stack software developer with experience in delivering clean, testable and maintainable solutions and system improvements. With plenty of experience in establishing and maintaining continuous integration pipelines and delivery automation, I am well equipped to take responsibility of devops tasks as well. Outside of work, I enjoy spending time with my family, watching and playing basketball and writing electronic music whenever I have spare time.",
     "location": {
       "address": "154A Flinders St",
@@ -28,6 +28,22 @@
     ]
   },
   "work": [
+    {
+      "company": "KDR Technology Solutions",
+      "position": "Contractor - Application Developer",
+      "website": "https://www.kdrtech.com/",
+      "startDate": "2022-03-21",
+      "highlights": [
+        "Placed at Department of Transport, responsible for developing user interfaces using Angular and Java Server Faces (JSF PrimeFaces).",
+        "Implemented digital identity and two factor authentication functionality in DoTDirect, enhancing security and user authentication workflows, integrating Angular user interfaces with REST APIs.",
+        "Developed and maintained ID Match functionality in T-One.",
+        "Assisted with adding new features to DoTDirect's infringement management interface, allowing customers to deal with vehicle infringements",
+        "Assigned as the 'product owner' for multiple Angular libraries and applications, conducting code reviews with my peers, to ensure that DoT libraries and applications are developed to the highest quality and adhere to DoT standards.",
+        "Responsible for upgrading all of DoT's Angular libraries and applications to the latest version of Angular, with research and implementation of upgrade automation using Renovate.",
+        "Constantly collaborating with cross functional teams (backend developers, product managers, other user interface developers) to deliver scalable and responsive web applications for internal and external users.",
+        "Day to day tasks involve using and managing Jenkins for CI/CD, deploying infrastructure and applications to AWS. Kibana and the AWS console is often used to debug applications and microservices."
+      ]
+    },
     {
       "company": "Campfire Digital Technology",
       "position": "Senior Java Developer",

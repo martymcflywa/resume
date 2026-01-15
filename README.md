@@ -6,7 +6,7 @@ My resume is created with a cool little tool called [jsonresume](https://jsonres
 
 The awesome part is that my resume is in plaintext, and in version control. My resume is hosted on AWS S3, and deploying an update to my resume is as simple as calling `npm run deploy` on the command line.
 
-https://resume.martinponce.com.au
+https://resume.martinponce.xyz
 
 # Usage
 
